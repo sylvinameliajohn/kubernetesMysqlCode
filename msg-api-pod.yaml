@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
   - name: msg-api
-    image: linoxide/msg-api:v0.0.1
+    image: fra.ocir.io/fri5p1y9isrx/mysql_repo/mysql-sample-app:latest
     ports:
     - name: msg-api
       containerPort: 8080
