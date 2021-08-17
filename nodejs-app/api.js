@@ -1,5 +1,5 @@
 var express = require('express')
-var mysql = require('mysql')
+var mysql = require('mysql2')
 
 var Router = express.Router();
 var ConnPool = mysql.createPool({
